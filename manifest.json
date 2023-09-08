@@ -1,0 +1,19 @@
+{
+  "name": "Fuck off Inspect Element!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "commands": {
+    "fuckoff": {
+      "suggested_key": "Ctrl+Shift+C",
+      "description": "Overrides Ctrl-Shift-C to copy."
+    }
+  }
+}
